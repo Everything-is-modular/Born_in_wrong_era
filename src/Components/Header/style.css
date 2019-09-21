@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 5px -5px #afafaf;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items div {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-items div:hover{
+    color: #754ef9;
+}   
